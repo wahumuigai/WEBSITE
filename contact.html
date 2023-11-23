@@ -1,0 +1,96 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="services.html">
+        <title>my photography website</title>
+        <style>
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: rgb(126, 8, 223);
+            }
+            ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+li{
+    display: inline-block;
+    margin-right: 20px;
+}
+li{
+    display:inline-block;
+    border-radius: 3px;
+    padding:2px;
+    margin-right: 0;
+}
+li:first-child{
+    margin-left: 0;
+}
+.navbar{
+    background-color: bisque;
+    text-align: right;
+}
+.search-box {
+    display: flex;
+    align-items: center;
+    border: 2px;
+    border-radius: 6px;
+    overflow: hidden;
+}
+.search-box input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: none;
+}
+.search-box button[type="submit"] {
+    padding: 10px 16px;
+    border: none;
+    background-color: blueviolet;
+    color: black;
+    cursor: pointer;
+}
+form label {
+    display: block;
+    font-weight: bolder;
+    margin-bottom: 15px;
+}
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="navbar">
+                <a href="#">WAHU'S photographyLab</a>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                  </ul>
+            </div>
+            <div class="container">
+                <div class="header">
+                    <h1> <u> contact us</u></h1>
+                    <div class="searchbox">
+                        <input type ="text" placeholder="=search">
+                        <button type="submit"><i class="search"></i></button>
+
+                    </div>
+                </div>
+                <div class="content">
+                    <form>
+                        <label for="name">Name</label>
+                        <input type="text" name="Name" id="name" placeholder="enter your name">
+
+                        <label for="email">email</label>
+                        <input type="text" name="email" id="email" placeholder="Enter your email">
+                        <input type="submit" value="send">
+                    </form>
+                </div>
+            </div>
+        <footer>
+            <p>janewahu@kabarak.ac.ke 2023</p>
+        </footer>
+    </body>
+</html>
